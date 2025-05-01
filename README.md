@@ -49,7 +49,7 @@ After 5 minutes, a second DNS request was made via the same port.
 - This time, the DNS response pointed to a new IP: 192.0.2.172, linked to greatrecipesforme.com.
 - Communication was established via a new port: 56378, suggesting DNS spoofing or redirection as part of the compromise.
 
-![Brute Force Attack](images/burteforce.png)
+![Brute Force Attack](images/bruteforce.png)
 
 ### 📜 Google Cybersecurity Certificate (Completed)
 - Hands-on labs and coursework in risk management, SIEM usage, Linux, network security, and detection methodologies.
