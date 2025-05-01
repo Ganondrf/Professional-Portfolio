@@ -67,7 +67,7 @@ After 5 minutes, a second DNS request was made via the same port.
 - **Packet Analysis**: Wireshark, TCPDump
 - **Scripting**: Bash, Python
 - **Cloud**: Azure Virtual Machines, Virtual Networks, Oracle VM
-- **Security Concepts**: Honeypots, DoS/DDoS, Threat Intelligence
+- **Security Concepts and Hands-on**: Honeypots, DoS/DDoS, Threat Intelligence
 
 ---
 
