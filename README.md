@@ -50,7 +50,7 @@ Today, I focus on:
 ## Certifications
 
 - 📜 Google Cybersecurity Professional Certificate (2025)
-- (Add more here when applicable)
+- CompTIA Security+ (Expected by July 2025)
 
 ---
 
