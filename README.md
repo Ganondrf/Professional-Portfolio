@@ -1,6 +1,6 @@
 # Raul Rodriguez Maestra - Cybersecurity Analyst
 
-Welcome to my cybersecurity portfolio! I'm an entry-level analyst passionate about digital privacy, threat detection, and incident response. My journey into cybersecurity began with a personal encounter with malware— and ever since, I’ve been committed to helping others and myself to protect their daily lives.
+Welcome to my cybersecurity portfolio! I'm an entry-level analyst passionate about digital privacy, threat detection, and incident response. My journey into cybersecurity began with a personal encounter with malware— and ever since, I’ve been committed to helping others to protect their daily lives.
 
 ---
 
