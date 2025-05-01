@@ -1,14 +1,14 @@
 # Raul Rodriguez Maestra - Cybersecurity Analyst
 
-Welcome to my cybersecurity portfolio! I'm an entry-level analyst with a strong passion for digital privacy, threat detection, and incident response. My journey into cybersecurity began with a personal encounter with malware—and ever since, I’ve been committed to helping others protect their digital lives.
+Welcome to my cybersecurity portfolio! I'm an entry-level analyst passionate about digital privacy, threat detection, and incident response. My journey into cybersecurity began with a personal encounter with malware— and ever since, I’ve been committed to helping others and myself to protect their daily lives.
 
 ---
 
 ## About Me
 
-My interest in technology goes back to watching videos about the latest computer hardware. But it was a personal security incident that sparked my deep dive into cybersecurity. After detecting and removing a remote access trojan from my own machine using Task Manager, I realized how vulnerable systems can be without proper defenses—and decided to change that for myself and others.
+My interest in technology goes back to watching videos about the latest computer hardware. But a personal security incident sparked my deep dive into cybersecurity. After detecting and removing a remote access trojan from my machine using Task Manager, I realized how vulnerable systems can be without proper defenses— and decided to change that for myself and others.
 
-Today, I focus on:
+I focus on:
 - Blue Team operations
 - Security monitoring
 - Threat detection
@@ -28,9 +28,26 @@ Today, I focus on:
 ![Log on attempts map](images/map1.png)
 ![Map 12 hours later](images/map2.png)
 
-### Incident Reports: DoS and DDoS
+### Incident Reports: DoS/DDoS and Brute Force
 - Used **Wireshark** and **TCPDump** to analyze simulated DoS/DDoS attacks.
 - Documented traffic anomalies, identified payload signatures, and created structured incident reports.
+
+**DoS Attack summary:**
+
+![DoS Attack](images/dosattack.png)
+
+**Brute Force Attack Summary:**
+- The website's administrator login panel was inaccessible, raising suspicion of a brute-force attack targeting the admin password.
+- Customers were redirected to a suspicious domain: greatrecipesforme.com (Instead of yummyrecipes)
+- A sandbox environment was created to simulate and safely analyze the suspicious behavior.
+Using TCPDump, I captured and analyzed the network traffic:
+- At 14:18, the source system sent a DNS request using port 52444, resolving the original server IP: 203.0.113.22.
+- The source then used port 36086 to communicate with yummyrecipesforme.com, followed by a data push flagged with [P.].
+- The payload contained the HTTP request: **HTTP: GET / HTTP/1.1** —likely the trigger for the malicious file download.
+After 5 minutes, a second DNS request was made via the same port.
+- This time, the DNS response pointed to a new IP: 192.0.2.172, linked to greatrecipesforme.com.
+- Communication was established via a new port: 56378, suggesting DNS spoofing or redirection as part of the compromise.
+
 
 ### 📜 Google Cybersecurity Certificate (Completed)
 - Hands-on labs and coursework in risk management, SIEM usage, Linux, network security, and detection methodologies.
