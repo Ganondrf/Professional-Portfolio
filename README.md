@@ -51,8 +51,13 @@ After 5 minutes, a second DNS request was made via the same port.
 
 ![Brute Force Attack](images/bruteforce.png)
 
-### 📜 Google Cybersecurity Certificate (Completed)
-- Hands-on labs and coursework in risk management, SIEM usage, Linux, network security, and detection methodologies.
+### Google Cybersecurity Certificate (Completed)
+- Hands-on labs and coursework in risk management, network security, and detection methodologies.
+- Python, SQL, SIEM usage
+- Network protocols
+- Security operations(Log analysis and event correlation)
+- Incident reports and handling response scenarios
+- Soft skills
 
 ---
 
@@ -60,15 +65,15 @@ After 5 minutes, a second DNS request was made via the same port.
 
 - **Monitoring & Detection**: Microsoft Sentinel, Azure Logs
 - **Packet Analysis**: Wireshark, TCPDump
-- **Scripting**: Bash, basic Python
-- **Cloud**: Azure Virtual Machines, Virtual Networks
+- **Scripting**: Bash, Python
+- **Cloud**: Azure Virtual Machines, Virtual Networks, Oracle VM
 - **Security Concepts**: Honeypots, DoS/DDoS, Threat Intelligence
 
 ---
 
 ## Certifications
 
-- 📜 Google Cybersecurity Professional Certificate (2025)
+- Google Cybersecurity Professional Certificate (2025)
 - CompTIA Security+ (Expected by July 2025)
 
 ---
