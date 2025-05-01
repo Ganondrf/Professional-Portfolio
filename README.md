@@ -37,6 +37,7 @@ I focus on:
 ![DoS Attack](images/dosattack.png)
 
 **Brute Force Attack Summary:**
+
 - The website's administrator login panel was inaccessible, raising suspicion of a brute-force attack targeting the admin password.
 - Customers were redirected to a suspicious domain: greatrecipesforme.com (Instead of yummyrecipes)
 - A sandbox environment was created to simulate and safely analyze the suspicious behavior.
@@ -48,6 +49,7 @@ After 5 minutes, a second DNS request was made via the same port.
 - This time, the DNS response pointed to a new IP: 192.0.2.172, linked to greatrecipesforme.com.
 - Communication was established via a new port: 56378, suggesting DNS spoofing or redirection as part of the compromise.
 
+![Brute Force Attack](images/burteforce.png)
 
 ### 📜 Google Cybersecurity Certificate (Completed)
 - Hands-on labs and coursework in risk management, SIEM usage, Linux, network security, and detection methodologies.
