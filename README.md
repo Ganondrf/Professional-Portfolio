@@ -24,7 +24,7 @@ Today, I focus on:
 - Pulled IP addresses and geolocation data to map attacks by **city and country**.
 - Created visual dashboards and analytics to display attack patterns.
 - Tools: Azure Cloud, Microsoft Sentinel, Log Analytics, Geolocation APIs
-![Azure Sentinel Logs](Azure, MC Sentinel, MCS Workbook.png)
+![Azure Sentinel Logs](images/Azure, MC Sentinel, MCS Workbook.png)
 ![Log on attempts map](MC Sentinel (SIEM).png)
 ![Map 12 hours later](Failed login maps 12h after.png)
 
